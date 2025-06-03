@@ -21,7 +21,7 @@ h3s.forEach(function (h3) {
 });
 
 // 4
-const fruitList = document.getElementById("fruList");
+const fruitList = document.getElementById("fruits");
 const newFruit = document.createElement("li");
 newFruit.textContent = "Pineapples";
 fruitList.appendChild(newFruit);
