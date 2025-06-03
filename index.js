@@ -8,7 +8,7 @@ document.body.style.margin = "auto";
 // 2
 const title = document.getElementById("title");
 title.style.color = "green";
-title.style.fontSize = "600%";
+title.style.fontSize = "300%";
 title.style.textAlign = "center";
 
 
@@ -16,7 +16,7 @@ title.style.textAlign = "center";
 const h3s = document.querySelectorAll("h3");
 h3s.forEach(function (h3) {
     h3.style.textTransform = "uppercase";
-    h3.style.fontSize = "180%";
+    h3.style.fontSize = "150%";
     h3.style.color = "green";
 });
 
@@ -37,10 +37,10 @@ vegList.appendChild(newVeg);
 
 
 
-fruList.style.display = "flex";
-fruList.style.gap = "5%";
-fruList.style.fontSize = "130%";
-fruList.style.marginBottom = "8%";
+fruits.style.display = "flex";
+fruits.style.gap = "5%";
+fruits.style.fontSize = "130%";
+fruits.style.marginBottom = "8%";
 
 
 vegList.style.display = "flex";
@@ -76,12 +76,12 @@ const vegItems = vegList.querySelectorAll("li");
 addImageToItem(fruitItems[0], "images/mango-removebg-preview.png");
 addImageToItem(fruitItems[1], "images/banana-removebg-preview.png");
 addImageToItem(fruitItems[2], "images/melon-removebg-preview.png");
-addImageToItem(fruitItems[3], "images/pineapple2.png");
+addImageToItem(fruitItems[3], "images/strawberry-removebg-preview.png");
 
 addImageToItem(vegItems[0], "images/onion-removebg-preview.png");
 addImageToItem(vegItems[1], "images/tomato-removebg-preview.png");
 addImageToItem(vegItems[2], "images/kales-removebg-preview.png");
-addImageToItem(vegItems[3], "images/broccoli.png");
+addImageToItem(vegItems[3], "iimages/cabbage-removebg-preview.png");
 
 
 const allLists = document.querySelectorAll('ul, ol');
