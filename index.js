@@ -23,14 +23,14 @@ h3s.forEach(function (h3) {
 // 4
 const fruitList = document.getElementById("fruits");
 const newFruit = document.createElement("li");
-newFruit.textContent = "Pineapples";
+newFruit.textContent = "Strawberry";
 fruitList.appendChild(newFruit);
 
 
 // 5
 const vegList = document.getElementById("vegList");
 const newVeg = document.createElement("li");
-newVeg.textContent = "Broccoli";
+newVeg.textContent = "Cabbage";
 vegList.appendChild(newVeg);
 
 
@@ -53,10 +53,10 @@ const subtitle = document.getElementById("subtitle");
 
 subtitle.style.fontSize = "170%";
 subtitle.style.textAlign = "center";
-subtitle.style.color = "#ffffff";
+subtitle.style.color = "green";
 subtitle.style.padding = "0.5%";
 subtitle.style.marginBottom = "5%";
-subtitle.style.backgroundColor = "green"
+
 
 
 function addImageToItem(list, imgLocation) {
@@ -75,13 +75,13 @@ const vegItems = vegList.querySelectorAll("li");
 
 addImageToItem(fruitItems[0], "images/mango-removebg-preview.png");
 addImageToItem(fruitItems[1], "images/banana-removebg-preview.png");
-addImageToItem(fruitItems[2], "images/melon-removebg-preview.png");
+addImageToItem(fruitItems[2], "images/watermelon-removebg-preview (1).png");
 addImageToItem(fruitItems[3], "images/strawberry-removebg-preview.png");
 
-addImageToItem(vegItems[0], "images/onion-removebg-preview.png");
+addImageToItem(vegItems[0], "images/onioin-removebg-preview.png");
 addImageToItem(vegItems[1], "images/tomato-removebg-preview.png");
 addImageToItem(vegItems[2], "images/kales-removebg-preview.png");
-addImageToItem(vegItems[3], "iimages/cabbage-removebg-preview.png");
+addImageToItem(vegItems[3], "images/cabbage-removebg-preview.png");
 
 
 const allLists = document.querySelectorAll('ul, ol');
